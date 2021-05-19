@@ -177,6 +177,12 @@ print(f"{Age_int}, is a {type(Age_int)}")
 ## List
 
 - lists can hold any form data in the same list 
+
+## Tuples
+
+- Syntax Tuple_Example()
+- tuples are the same as list except a tuples cannot be changed once they are created they are mutable
+
 ```python
 # Lists
 # Syntz ["London" ]
@@ -206,9 +212,15 @@ print(shopping_list.reverse())
 #prints the list one item at a time in a loop format
 for x in shopping_list:
     print(x)
+
+# Tuples
+
+essential = ("egg", "milk", "break")
+
+print(essential)
+print(type(essential))
+
+# replace bread with yogurt
+#essential(2) = "yogurt" #returns an error cannot change the value of a tuple
+
 ```
-
-## Tuples
-
-- Syntax Tuple_Example()
-- tuples are the same as list except a tuples cannot be changed once they are created they are mutable
