@@ -183,6 +183,12 @@ print(f"{Age_int}, is a {type(Age_int)}")
 - Syntax Tuple_Example()
 - tuples are the same as list except a tuples cannot be changed once they are created they are mutable
 
+## Dictionaries
+
+- are structured as key = value
+- values can be any form (string, int, list)
+- Syntax dictionary_example{}
+
 ```python
 # Lists
 # Syntz ["London" ]
@@ -222,5 +228,25 @@ print(type(essential))
 
 # replace bread with yogurt
 #essential(2) = "yogurt" #returns an error cannot change the value of a tuple
+
+## Dictionaries
+
+# can hold any form of data within it
+
+student_1 = {
+    "name" : "Tyree ",
+    "key"  : "Value",
+    "stream" : "Cyber Security", #string
+    "Completed_lessons" : "3", #int
+    "Complete_lessons_names":["variables", "operators", "data_collections"] #list
+
+
+}
+
+print(student_1) # prints the entire dictionary
+print(student_1["name"]) # prints the value from the given key
+print(student_1["Complete_lessons_names"][1]) # prints one value from the list in the dictionary
+print(student_1.keys()) #only prints the keys in the dictionary
+print(student_1.values()) #Only prints the values in the dictionary
 
 ```
