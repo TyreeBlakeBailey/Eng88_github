@@ -165,6 +165,11 @@ print(f"{Age_int}, is a {type(Age_int)}")
 
 #above are three exactly the same way to print the statment
 
-``'
+```
 
-test push text here
+# Python Data Collections
+
+- Lists
+- Dictionary
+- Tuples
+- Sets
