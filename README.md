@@ -1,8 +1,7 @@
-# python
+## python
+* python installation 3.7 or above *
 
-## python installation 3.7 or above
-
-### Pycharm set up 
+## Pycharm set up 
 
 #### Documentation with readme.md to store on GIT-HUB
 
@@ -20,7 +19,7 @@
 
 - testing the python env 'print("text")'
 - Python is being used worldwide for websites and applications such as LinkedIn
-- It is needed in DevSecOps because it is required for the consualtant to have an understanding of the code
+- It is needed in DevSecOps because it is required for the consultant to have an understanding of the code
 - Need to understand the code to add security aspects
 
 
