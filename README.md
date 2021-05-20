@@ -169,7 +169,7 @@ print(str(Age_int) + ", is a " + str(type(Age_int)))
 print("{}, is a {}".format(Age_int, type(Age_int)))
 print(f"{Age_int}, is a {type(Age_int)}")
 
-#above are three exactly the same way to print the statment
+#above are three exactly the same way to print the statement
 
 ```
 
@@ -197,7 +197,7 @@ print(f"{Age_int}, is a {type(Age_int)}")
 
 ```python
 # Lists
-# Syntz ["London" ]
+# Syntax ["London" ]
 
 shopping_list = [ "juice", "strawberries", "yogurt", "chicken", "raspberry", "butter" ]
 #                   0           1              2        3           4           5
