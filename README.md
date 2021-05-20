@@ -270,7 +270,6 @@ print(student_1.values()) #Only prints the values in the dictionary
 car_parts = {"wheels", "doors", "engine"}
 print(car_parts)
 
-
 # used to add an item
 car_parts.add("windows")
 print(car_parts)
