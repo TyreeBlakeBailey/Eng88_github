@@ -6,6 +6,16 @@
 
 #### Documentation with readme.md to store on GIT-HUB
 
+    …or create a new repository on the command line
+    echo "# practice" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/TyreeBlakeBailey/practice.git
+    git push -u origin main
+
+
 ##### dynamically type language
 
 - testing the python env 'print("text")'
@@ -63,7 +73,6 @@ print("Hello " + name)
 ### Arithmetic Operators| Operand | Description | Example |
 
 |:---------: |:----------------------------: |:--------: |
-
 | + | add two operands (variables) together| X + y + 2 |
 
 | - | subtract two operands (variables) | X - y - 2 |
@@ -75,10 +84,7 @@ print("Hello " + name)
 | % | Modulus - remainder of the division of left operand by the right | X - y - 2 |
 
 | + | add two operands (variables) together| X + y + 2 |## Comparison Operators| Operand | Description | Example |
-
 |:---------: |:----------------------------: |:--------: |
-
-
 | > | True if left operand is greater than the right| x > y |
 
 | < | True if left operand is less than the right| x < y |
@@ -90,7 +96,8 @@ print("Hello " + name)
 | >= | True if left operand is greater than or equal to the right| x >= y |
 
 | <= | True if left operand is less than or equal to the right| x <= y  |
- ```python
+ 
+```python
 value1 = 6
 value2 = 7
 
