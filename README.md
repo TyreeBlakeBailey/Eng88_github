@@ -195,6 +195,11 @@ print(f"{Age_int}, is a {type(Age_int)}")
 - values can be any form (string, int, list)
 - Syntax dictionary_example{}
 
+## Sets
+
+- sets are data collections, but the difference is that they are unordered
+- Syntax name = {}
+- the data is given back in a random ordered
 ```python
 # Lists
 # Syntax ["London" ]
@@ -254,5 +259,28 @@ print(student_1["name"]) # prints the value from the given key
 print(student_1["Complete_lessons_names"][1]) # prints one value from the list in the dictionary
 print(student_1.keys()) #only prints the keys in the dictionary
 print(student_1.values()) #Only prints the values in the dictionary
+
+
+## Sets
+# sets are data collections but the difference is that they are unordered
+#Syntax name = {}
+# the data is given back in a random ordered
+
+
+car_parts = {"wheels", "doors", "engine"}
+print(car_parts)
+
+
+# used to add an item
+car_parts.add("windows")
+print(car_parts)
+# both used to remove an item from the list
+car_parts.discard("doors")
+car_parts.remove("doors")
+
+
+#Frozen sets
+frozen_set = ([1,3,5,6])
+print(frozen_set) # frozen sets are always printed in the same ordered
 
 ```
