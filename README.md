@@ -28,7 +28,7 @@
       
 - String
     - Anything between "" is considered a string
-
+  
 - Boolean 
     - True or false value
 
