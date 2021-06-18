@@ -12,7 +12,7 @@ print(shopping_list[2])
 print(shopping_list[4])
 print(shopping_list[-1])
 
-#can adjustingn the values in teh list
+#can adjustingn the values in the list
 shopping_list[5] = "Oats" # replaces given slot with new value
 shopping_list.append("mango") # adds new item at the end
 shopping_list.remove("Oats") # removes the value that is given
@@ -20,7 +20,7 @@ shopping_list.pop() #pop() removes the last item in the list
 
 
 #prints the list in reverse order
-print(shopping_list[::-1])
+print(shopping_list[1:5])
 print(shopping_list.reverse())
 
 #prints the list one item at a time in a loop format
@@ -58,3 +58,4 @@ print(student_1["name"]) # prints the value from the given key
 print(student_1["Complete_lessons_names"][1]) # prints one value from the list in the dictionary
 print(student_1.keys()) #only prints the keys in the dictionary
 print(student_1.values()) #Only prints the values in the dictionary
+
